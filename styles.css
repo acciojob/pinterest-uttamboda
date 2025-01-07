@@ -1,1 +1,57 @@
-/*  your css code here. If applicable */
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;  /* Adjust based on your preference */
+}
+
+.hero-image {
+  width: 70%;
+  height: 30%;
+  object-fit: cover;
+}
+
+.content {
+  /* margin-left: 20px; /* Adds space between image and content */ */
+  max-width: 50%;
+  display: flex;
+  flex-direction: column; /* Stack the h1, p, and button vertically */
+  justify-content: center; /* Centers content vertically */
+}
+
+.tag {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 10px; /* Adds space between h1 and p */
+}
+
+.explore-btn {
+  padding: 12px 24px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  text-align:center;
+}
+
+.explore-btn:hover {
+  background-color: #0056b3;
+}
+.hero2{
+	margin:40px;
+	max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+   text-align: center;
+}
